@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "namespace": "br.example.dto",
+  "name": "OrderAvro",
+  "version": "1",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "type": "double"
+    }
+  ]
+}
