@@ -18,7 +18,7 @@ docker build . -t ecommerce &&  docker run -p 8080:8080 --network host ecommerce
 }
 ```
 
-## Comsumers em outros projetos
+## Consumers em outros projetos
 ### [AVRO] (https://github.com/sauloddiniz/ecommerce-consumer-avro)
 ### [JSON] (https://github.com/sauloddiniz/ecommerce-consumer-json)
 ### [String] (https://github.com/sauloddiniz/ecommerce-consumer-string)
