@@ -1,4 +1,4 @@
-package serializers
+package br.example.ecommerce.serializers
 
 import com.fasterxml.jackson.databind.json.JsonMapper
 import org.apache.kafka.common.serialization.Serializer

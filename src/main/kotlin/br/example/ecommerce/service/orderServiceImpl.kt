@@ -1,7 +1,7 @@
 package br.example.ecommerce.service
 
 import org.springframework.stereotype.Service
-import producer.NewOrderProducer
+import br.example.ecommerce.producer.NewOrderProducer
 import to.Order
 
 @Service
