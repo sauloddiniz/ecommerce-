@@ -2,9 +2,11 @@
 ## Projeto base para criar producers String,Json e AVRO
 
 ## Como executar
-### docker-compose up
-### ./gradlew build 
-### docker build . -t ecommerce &&  docker run -p 8080:8080 --network host ecommerce
+###./gradlew build
+```
+docker-compose up
+docker build . -t ecommerce &&  docker run -p 8080:8080 --network host ecommerce
+```
 
 ### post para http://localhost:8080/order
 ```
@@ -17,6 +19,9 @@
 ```
 
 ## Comsumers em outros projetos
+### [AVRO] (https://github.com/sauloddiniz/ecommerce-consumer-avro)
+### [JSON] (https://github.com/sauloddiniz/ecommerce-consumer-json)
+### [String] (https://github.com/sauloddiniz/ecommerce-consumer-string)
 
 
 
