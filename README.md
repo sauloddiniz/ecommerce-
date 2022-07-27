@@ -2,7 +2,9 @@
 ## Projeto base para criar producers String,Json e AVRO
 
 ## Como executar
-### /gradlew build
+```
+./gradlew build
+```
 ```
 docker-compose up
 ```
