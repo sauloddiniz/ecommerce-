@@ -6,7 +6,7 @@ open class ProducerProperties(private val serializableClass: String) {
         val properties = mutableMapOf<String, String>();
         properties["key.serializer"] = "org.apache.kafka.common.serialization.StringSerializer";
         properties["value.serializer"] = serializableClass;
-        properties["bootstrap.servers"] = "127.0.0.1:9092";
+        properties["bootstrap.servers"] = "kafka1:19092";
         return properties;
     }
 
@@ -14,8 +14,8 @@ open class ProducerProperties(private val serializableClass: String) {
         val properties = mutableMapOf<String, String>();
         properties["key.serializer"] = "org.apache.kafka.common.serialization.StringSerializer";
         properties["value.serializer"] = serializableClass;
-        properties["bootstrap.servers"] = "127.0.0.1:9092";
-        properties["schema.registry.url"] = "http://127.0.0.1:8081";
+        properties["bootstrap.servers"] = "kafka1:19092";
+        properties["schema.registry.url"] = "http://kafka-schema-registry:8081";
         return properties;
     }
 

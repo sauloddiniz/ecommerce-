@@ -151,3 +151,15 @@ services:
       HTTP_PORT: 8000
       AUTO_CONNECT_CONNECTION_STRING: zoo1:2181
 
+  ecommerce:
+    image: tuyco/ecommerce
+    build: .
+    ports:
+      - "8080:8080"
+    links:
+      - kafka1
+    depends_on:
+      - kafka1
+      - zoo1
+    volumes:
+      - ./build/libs:/usr/app
